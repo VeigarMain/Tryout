@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+    background-color: rgb(207, 207, 207);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(0, 153, 140);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 0px 10px 10px;
+    margin: 50px 30px 70px 60px;
+    
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    
+    width: 50%;
+    margin-top: 0px !important;
+    padding: 0px 20px 20px 20px !important;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+  .navbar-brand {
+    
+    background-color: #73dbdb;
+    font-size: 30px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin: 0px 10px 0px 10px;
+}
+.navbar {
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding-left: 45px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+footer {
+  
+    background: gray;
+    
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    margin-top: auto;
+  
+  }
+  .footerborder {
+      border-width: 5px !important;
+      border-color: teal !important;
+      
+  }
+  i {
+    padding: 20px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200 !important;
+}
+h2 {
+    
+    color: turquoise;
+    margin: 0px 10px 10px 0px;
+    padding: 10px 0px 0px 10px;
+}
+
+label {
+    color: gray;
+}
+
+@media only screen and (max-width: 640px) {
+    .name {
+        font-size: 28px !important;
+        font-weight:  600;
+        color: white !important;
+        width: 100%;
+        text-align: center;
+        
+    }
+}

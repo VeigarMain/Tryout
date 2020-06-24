@@ -1,0 +1,100 @@
+.navbar-brand {
+    
+    background-color: #73dbdb;
+    font-size: 30px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin: 0px 10px 0px 10px;
+}
+
+#customh1 {
+    color: #73dbdb;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+ 
+  h1 {
+      color: rgb(129, 233, 233);
+  }
+p {
+    font-size: 22px;
+}
+body {
+    background-color: #d9d9d9;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+overflow-x: hidden;
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+
+.navbar {
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding-left: 45px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+p {
+    float: inline-start;
+    font-size: 16px;
+    margin: 10px 20px 10px 30px;
+    padding: 10px 50px 20px 10px;
+}
+
+  footer {
+   
+  margin-top: auto;
+  background: gray;
+  width: 100%;
+  text-align: center;
+  height: 70px;
+  
+
+}
+.footerborder {
+    border-width: 5px !important;
+    border-color: teal !important;
+    
+}
+h4 {
+    float: right;
+    font-size: 12px;
+    
+}
+
+.container {
+    padding-top: 20px;
+    
+}
+img {
+    float: left;
+    padding: 20px 20px 20px 20px;
+    
+}
+i {
+    padding: 20px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200 !important;
+}
+html {
+    height: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+    .name {
+        font-size: 28px !important;
+        font-weight:  600;
+        color: white !important;
+        width: 100%;
+        text-align: center;
+
+    }
+}
